@@ -1,0 +1,133 @@
+{
+	"id": "09670e51-a717-aea1-4254-a113d225684a",
+	"name": "nodejs-jwt",
+	"description": "",
+	"order": [
+		"0a7d0332-eff2-0747-6f4f-44b16dab47f2",
+		"f7feb0f8-5386-bbb2-f99e-c3c3eb92fc02",
+		"89d5bf19-5c85-fa68-443b-c9aac5dd634b",
+		"50435b2b-2b33-1afc-b3f8-f32514bcc52b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1545064238231,
+	"owner": "3435651",
+	"public": false,
+	"requests": [
+		{
+			"id": "0a7d0332-eff2-0747-6f4f-44b16dab47f2",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/checking",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "09670e51-a717-aea1-4254-a113d225684a",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:3000/checking",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545064240898,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "50435b2b-2b33-1afc-b3f8-f32514bcc52b",
+			"headers": "Authorization: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzE3Y2E1ZWM1ZGQ2MDFiNzdiZDc0ZjciLCJlbWFpbCI6ImxlaG9uXzI1QHlhaG9vLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJDN6OGtmNU4wRlcydzB2a2loajBzNi5pU1IwTEU3RHNSdzdFeDdrWHpxeDJjVkJpclAwZWlpIiwiX192IjowLCJpYXQiOjE1NDUwNjMwNDUsImV4cCI6MTU0NTA2Mzk0NX0.9xHfwFT7wSxiGJPuDSc5vbrMcFHPZtfA1bpyXTZCg-U\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzE3Y2E1ZWM1ZGQ2MDFiNzdiZDc0ZjciLCJlbWFpbCI6ImxlaG9uXzI1QHlhaG9vLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJDN6OGtmNU4wRlcydzB2a2loajBzNi5pU1IwTEU3RHNSdzdFeDdrWHpxeDJjVkJpclAwZWlpIiwiX192IjowLCJpYXQiOjE1NDUwNjMwNDUsImV4cCI6MTU0NTA2Mzk0NX0.9xHfwFT7wSxiGJPuDSc5vbrMcFHPZtfA1bpyXTZCg-U",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users/me",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "09670e51-a717-aea1-4254-a113d225684a",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:3000/api/users/me",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545065954266,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "89d5bf19-5c85-fa68-443b-c9aac5dd634b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users/signin",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "09670e51-a717-aea1-4254-a113d225684a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/users/signin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545064284932,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\":\"lehon_25@yahoo.com\",\n\t\"password\":\"secret123\"\n}"
+		},
+		{
+			"id": "f7feb0f8-5386-bbb2-f99e-c3c3eb92fc02",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users/signup",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "09670e51-a717-aea1-4254-a113d225684a",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/api/users/signup",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1545064263204,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\":\"lehon_25@yahoo.com\",\n\t\"password\":\"secret123\"\n}"
+		}
+	]
+}
