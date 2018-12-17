@@ -2,9 +2,11 @@
 Run
 
 ```sh
+- Download this repository
+- Ekstrak
 $ cd login-jwt
 $ npm install
-$ node start
+$ npm start
 ```
 ## POSTMAN
 - Download Link
